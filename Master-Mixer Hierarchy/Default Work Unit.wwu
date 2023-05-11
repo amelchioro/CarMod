@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{44755282-3B79-43A3-B834-39402D9EC79C}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{44755282-3B79-43A3-B834-39402D9EC79C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{729C27BC-E1AF-42F3-A012-2BD428235023}" WorkUnitID="{37C4138D-30F4-4B4F-B4CD-EC78D725DCF1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Saturation" ID="{79C94DA4-FA7D-46FB-B7FE-A7756DCE2A76}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{B8EFD8A6-DEAC-42A7-83DC-6D4582D0D6FD}" ShortID="722468072" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="22"/>
+												<Property Name="DistortionType" Type="int32" Value="1"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="SaturationBugatti" ID="{39C52425-D4EA-4D7E-9AB5-42F3FF081C13}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{913F475B-8D63-47E3-85D0-840227F0B565}" ShortID="870545557" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="73">
+													<RTPCList>
+														<RTPC Name="" ID="{18212C03-4DCE-41B0-9C21-6B883A063CE9}" ShortID="262135751">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="carSpeed" ID="{F599BCFA-BD00-4F9D-A03C-923B717DF4BA}" WorkUnitID="{DE4C6BFB-2BEB-444F-B769-66B05DA1360D}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{422462F7-ECF3-4EE8-BB81-D3B612D68A41}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-21.25604</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>75.30864</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>200</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="DistortionTone" Type="Real32" Value="55"/>
+												<Property Name="DistortionType" Type="int32" Value="1"/>
+												<Property Name="Rectification" Type="Real32" Value="2"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Ambience" ID="{FA159324-A4FB-405A-98BE-A3479BA1D4E7}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

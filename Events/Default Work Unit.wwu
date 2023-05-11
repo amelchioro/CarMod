@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B75F8D9E-FD2E-426A-8C16-D1DEE4DF8FBA}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B75F8D9E-FD2E-426A-8C16-D1DEE4DF8FBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="engine_on" ID="{92517C39-FEED-4E19-8579-52AD00E27FD0}">
+					<ChildrenList>
+						<Action Name="" ID="{E321D281-56A3-44A7-98B7-424EECEAF980}" ShortID="154954804">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wind" ID="{4B7A7E40-FF56-46E0-9BD7-75260769F4A1}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{857F5BD4-1553-4131-B887-B83CD6705B6E}" ShortID="705422561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AsphaltLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E9C0A200-98C4-4D5C-9A31-59ADD6C5C672}" ShortID="1014608429">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carEngine" ID="{CF33C15A-6D43-4AF1-892B-5537056514B6}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D0792B7-A9B5-4BE9-8725-3CB0C7C325BE}" ShortID="942448977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carEngine" ID="{CF33C15A-6D43-4AF1-892B-5537056514B6}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="skid_stop" ID="{57EB9942-A13F-410A-8F70-9A757A1E9DDE}">
+					<ChildrenList>
+						<Action Name="" ID="{FBF9877C-8C2A-41CD-98E8-1F7ADE1F6A2E}" ShortID="165060837">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="skid" ID="{0D35435E-4D6E-4839-935D-6A3B04769720}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="engine_off" ID="{6925E856-92FB-402F-B5EA-E29B6EC7BB2A}">
+					<ChildrenList>
+						<Action Name="" ID="{369B4ED2-60FF-4FB5-A455-B04D9574A48B}" ShortID="1042548100">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wind" ID="{4B7A7E40-FF56-46E0-9BD7-75260769F4A1}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2873D2F2-8803-4985-920C-43CE89A6BD58}" ShortID="472384729">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AsphaltLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7106DF71-95C6-4676-A32A-BF97F44E2679}" ShortID="900199745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EngineOff" ID="{C45DA895-7873-42C6-ADBB-3AE7CDFA00D1}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79DCEBA0-C81E-49C8-9DE6-EDE8BBD7ED82}" ShortID="120581152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EngineOff_KeysLayer" ID="{05470A6F-EF15-40E8-A291-4953287A45D6}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76BF331E-47E6-48FC-810A-08E2DC122C3B}" ShortID="882387387">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="carEngine" ID="{CF33C15A-6D43-4AF1-892B-5537056514B6}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="handbrake" ID="{18BFA96A-6988-4724-BCA9-7E4A25B6D3B4}">
+					<ChildrenList>
+						<Action Name="" ID="{24F2102E-EEF3-4974-88CC-E23B1EAECC65}" ShortID="610227662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="handBrake" ID="{C60AD481-95D8-425E-9607-9AAC9339E1AC}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gear_up" ID="{8BACFE6B-A22E-49F1-842F-B5E039DB48A7}">
+					<ChildrenList>
+						<Action Name="" ID="{26ACAD9A-F19A-4F3B-8511-CDAA4FF466FF}" ShortID="339823190">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HissSwitch" ID="{CA1CA162-E0CC-45ED-88B0-BB2D79E7A49E}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08F460C4-94FF-4C98-9CE9-AE5DCF904CAC}" ShortID="1045823087">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gearUpSwitch" ID="{CB41F875-4EAB-4B27-BCD6-5394AA8DD831}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="gear_down" ID="{290C95D4-82E8-4E15-AB08-4EC1FA51F07E}">
+					<ChildrenList>
+						<Action Name="" ID="{A9DBDA24-3D77-4FD8-8733-326D04D6935F}" ShortID="494535667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShotsSwitch" ID="{025F9E13-ADF1-43C4-B4C1-C88F9E42EEE3}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AF2B786-F421-4318-9BB8-15567467EA6A}" ShortID="301871634">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gearDownSwitch" ID="{BE4A2A88-9AC0-4457-A112-0F4599527B17}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="skid_start" ID="{289692E4-935E-4A1A-97D5-445DE2BC3D79}">
+					<ChildrenList>
+						<Action Name="" ID="{58BA1463-F26D-452A-BF9A-9D2C75632D55}" ShortID="862624586">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="skid" ID="{0D35435E-4D6E-4839-935D-6A3B04769720}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
