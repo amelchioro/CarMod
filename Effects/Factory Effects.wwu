@@ -219,8 +219,8 @@
 									<ChildrenList>
 										<Effect Name="Boost_3dB_10KHz" ID="{59632554-9396-4E15-889E-7A2F5458DEC3}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
-												<Property Name="FrequencyBand3" Type="Real32" Value="10000"/>
-												<Property Name="GainBand3" Type="Real32" Value="3"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="6383"/>
+												<Property Name="GainBand3" Type="Real32" Value="24"/>
 												<Property Name="OnOffBand1" Type="bool" Value="False"/>
 												<Property Name="OnOffBand2" Type="bool" Value="False"/>
 											</PropertyList>
@@ -1588,8 +1588,9 @@
 								<Effect Name="Chorus_Like" ID="{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
 										<Property Name="DelayTime" Type="Real32" Value="10"/>
-										<Property Name="ModDepth" Type="Real32" Value="60"/>
-										<Property Name="ModFrequency" Type="Real32" Value="0.85"/>
+										<Property Name="FeedBackLevel" Type="Real32" Value="0.8"/>
+										<Property Name="ModDepth" Type="Real32" Value="7.9"/>
+										<Property Name="ModFrequency" Type="Real32" Value="20"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
 									</PropertyList>
 								</Effect>
@@ -1886,7 +1887,39 @@
 						</Effect>
 						<Effect Name="Boomerang" ID="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModFrequency" Type="Real32" Value="3"/>
+								<Property Name="ModFrequency" Type="Real32" Value="3">
+									<RTPCList>
+										<RTPC Name="" ID="{CC61EB95-C96D-4C55-82E6-A9F9035DE98A}" ShortID="98226744">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="carSpeed" ID="{F599BCFA-BD00-4F9D-A03C-923B717DF4BA}" WorkUnitID="{DE4C6BFB-2BEB-444F-B769-66B05DA1360D}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3E85B85E-0A05-46FB-B349-7AA3FB17F065}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="5"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>2.08373</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>49.38272</XPos>
+														<YPos>4.96768</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>400</XPos>
+														<YPos>3.55406</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>

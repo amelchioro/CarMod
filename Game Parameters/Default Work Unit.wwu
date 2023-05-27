@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="engineRPM" ID="{50366B32-4163-4BAF-B261-48C85F76B600}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1500"/>
+						<Property Name="InitialValue" Type="Real64" Value="1000"/>
 						<Property Name="Max" Type="Real64" Value="8000"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="4000"/>
@@ -15,7 +15,7 @@
 				<GameParameter Name="carSpeed" ID="{F599BCFA-BD00-4F9D-A03C-923B717DF4BA}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="200"/>
+						<Property Name="Max" Type="Real64" Value="400"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="gearNumber" ID="{981EB9E7-AAF6-490B-9982-15DB72AE81CE}">

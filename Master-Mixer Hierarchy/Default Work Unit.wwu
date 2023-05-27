@@ -56,12 +56,12 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>75.30864</XPos>
+																		<XPos>150.61728</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>200</XPos>
+																		<XPos>400</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -83,6 +83,22 @@
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="MadSaturation" ID="{1FA64958-9F0D-4625-A523-135B32297412}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{20C8EF05-53D5-4062-B632-652E45A7F440}" ShortID="516973158" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+											<PropertyList>
+												<Property Name="DistortionDrive" Type="Real32" Value="35"/>
+												<Property Name="DistortionTone" Type="Real32" Value="100"/>
+												<Property Name="DistortionType" Type="int32" Value="3"/>
+												<Property Name="Rectification" Type="Real32" Value="99"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>

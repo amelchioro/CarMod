@@ -7,7 +7,8 @@
 					<ChildrenList>
 						<Switch Name="bmw_1980" ID="{7829BA2F-E884-4FFB-9DA8-320DE134A6D5}"/>
 						<Switch Name="Porsche_Cayman" ID="{FD026D74-F387-4759-8C0E-0A4EC7C715BB}"/>
-						<Switch Name="Bugatti_Chiron" ID="{0A9C1166-D655-4328-9535-2DB96086FB5A}"/>
+						<Switch Name="bugatti_Chiron" ID="{0A9C1166-D655-4328-9535-2DB96086FB5A}"/>
+						<Switch Name="AstonMartin_DB11" ID="{4B22924E-544C-4356-A6EF-D7C1ABAB548A}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

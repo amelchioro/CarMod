@@ -19,6 +19,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8C20B2DA-6FCE-4D9C-B211-0B7F7FAA6B6E}" ShortID="33475876">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="asphaltNoGravel" ID="{658BD918-32FD-4ED0-BB65-35A0CB54594A}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{E9C0A200-98C4-4D5C-9A31-59ADD6C5C672}" ShortID="1014608429">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -47,7 +54,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="skid" ID="{0D35435E-4D6E-4839-935D-6A3B04769720}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+									<ObjectRef Name="Skid" ID="{C629A8A9-2B69-4AAD-B4AA-09AB292AD6F4}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -79,13 +86,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="EngineOff" ID="{C45DA895-7873-42C6-ADBB-3AE7CDFA00D1}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{79DCEBA0-C81E-49C8-9DE6-EDE8BBD7ED82}" ShortID="120581152">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EngineOff_KeysLayer" ID="{05470A6F-EF15-40E8-A291-4953287A45D6}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -156,12 +156,24 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="skid" ID="{0D35435E-4D6E-4839-935D-6A3B04769720}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+									<ObjectRef Name="Skid" ID="{C629A8A9-2B69-4AAD-B4AA-09AB292AD6F4}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_ambience" ID="{137D3AD3-9B47-424D-BA6B-35E3E121AEF8}">
+					<ChildrenList>
+						<Action Name="" ID="{02C6E402-C8F0-4FCD-A856-A13DB7877D72}" ShortID="618242782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{2B1B06CC-3684-4633-81B9-94895773632B}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="prova" ID="{F8AA6D91-C2DE-4664-BBD3-A992329F8246}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

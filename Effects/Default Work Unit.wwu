@@ -5,82 +5,13 @@
 			<ChildrenList>
 				<Effect Name="Tremolo" ID="{8625BD71-8BF1-4040-9100-C1BC0F330485}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 					<PropertyList>
-						<Property Name="ModDepth" Type="Real32" Value="62.6">
-							<RTPCList>
-								<RTPC Name="" ID="{FA305F20-085E-4279-A760-FC26813A3EC2}" ShortID="69415587">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="engineRPM" ID="{50366B32-4163-4BAF-B261-48C85F76B600}" WorkUnitID="{DE4C6BFB-2BEB-444F-B769-66B05DA1360D}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{4B9B2015-76C7-4E8A-A382-BBFA5F8B1BCD}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>1093.36333</XPos>
-												<YPos>-31.68316</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>8000</XPos>
-												<YPos>-100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="ModFrequency" Type="Real32" Value="15">
-							<RTPCList>
-								<RTPC Name="" ID="{F1B98F5D-AD49-4B92-BC12-4C97FDA30E5D}" ShortID="1010854212">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="engineRPM" ID="{50366B32-4163-4BAF-B261-48C85F76B600}" WorkUnitID="{DE4C6BFB-2BEB-444F-B769-66B05DA1360D}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{FA232DE2-0610-4E51-A6A8-10F27DB34F8C}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="5"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>3.76397</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>1096.296295</XPos>
-												<YPos>17.3721</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>1096.29752576923</XPos>
-												<YPos>0.02</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>2202.469135</XPos>
-												<YPos>0.02</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>8000</XPos>
-												<YPos>0.02</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
+						<Property Name="ModDepth" Type="Real32" Value="85.8"/>
+						<Property Name="ModFrequency" Type="Real32" Value="1554.66"/>
+						<Property Name="ModPWM" Type="Real32" Value="73"/>
+						<Property Name="ModPhaseOffset" Type="Real32" Value="6"/>
+						<Property Name="ModSmoothing" Type="Real32" Value="33"/>
+						<Property Name="ModWaveform" Type="int32" Value="1"/>
+						<Property Name="OutputGain" Type="Real32" Value="5"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>
