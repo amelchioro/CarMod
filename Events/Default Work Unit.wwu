@@ -117,7 +117,7 @@
 						<Action Name="" ID="{26ACAD9A-F19A-4F3B-8511-CDAA4FF466FF}" ShortID="339823190">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="HissSwitch" ID="{CA1CA162-E0CC-45ED-88B0-BB2D79E7A49E}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+									<ObjectRef Name="RevGearSwitch" ID="{CA1CA162-E0CC-45ED-88B0-BB2D79E7A49E}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
