@@ -1694,11 +1694,6 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>0.4</Value>
@@ -2288,6 +2283,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>0.4</Value>
@@ -7684,7 +7684,7 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
-						<Sound Name="AsphaltLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" ShortID="837997671">
+						<Sound Name="GravelLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" ShortID="837997671">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>

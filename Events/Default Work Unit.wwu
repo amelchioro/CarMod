@@ -15,7 +15,7 @@
 						<Action Name="" ID="{857F5BD4-1553-4131-B887-B83CD6705B6E}" ShortID="705422561">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AsphaltLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+									<ObjectRef Name="GravelLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -78,7 +78,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AsphaltLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
+									<ObjectRef Name="GravelLayer" ID="{445B0CC5-0295-414F-BF24-C252FD40275D}" WorkUnitID="{79935184-BFC1-4A40-A68A-13373F4C022D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
