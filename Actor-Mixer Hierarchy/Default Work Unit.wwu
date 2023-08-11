@@ -6685,7 +6685,7 @@
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7096,82 +7096,6 @@
 										<SwitchRef Name="bugatti_Chiron" ID="{0A9C1166-D655-4328-9535-2DB96086FB5A}"/>
 										<ItemList>
 											<ItemRef Name="CarShots" ID="{5DAEA4D6-FBA2-4498-9D7F-6DEDD085CA6E}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
-						<SwitchContainer Name="RevGearSwitch" ID="{CA1CA162-E0CC-45ED-88B0-BB2D79E7A49E}" ShortID="125921428">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="New Attenuation" ID="{777FEA1D-4FFB-4CB6-9408-35C13F6E7C58}" WorkUnitID="{B1CC24CE-2BAA-49F1-B692-D2B1FD4AD14A}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB64692-4B85-4A32-807F-46E6DA7DE69A}"/>
-								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="bmw_1980" ID="{7829BA2F-E884-4FFB-9DA8-320DE134A6D5}" WorkUnitID="{AA467563-6604-47C3-B67F-4BE20EAD18AE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{44755282-3B79-43A3-B834-39402D9EC79C}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="car_name" ID="{6E32B6B2-6B37-4C39-A7CD-B262E603BE88}" WorkUnitID="{AA467563-6604-47C3-B67F-4BE20EAD18AE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="RevGear" ID="{B1F428FE-B024-4EE9-803F-518D457FA515}" ShortID="919952674">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-150</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{5E630B91-2E25-4FE3-97AE-C6AF797EEE9F}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EFB64692-4B85-4A32-807F-46E6DA7DE69A}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{44755282-3B79-43A3-B834-39402D9EC79C}"/>
-										</Reference>
-									</ReferenceList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="RevGear" ID="{B1F428FE-B024-4EE9-803F-518D457FA515}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="AstonMartin_DB11" ID="{4B22924E-544C-4356-A6EF-D7C1ABAB548A}"/>
-										<ItemList>
-											<ItemRef Name="RevGear" ID="{B1F428FE-B024-4EE9-803F-518D457FA515}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -7861,7 +7785,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{7A3D85AF-13D2-4747-8F9D-E9F34644517A}" ShortID="978301033">
@@ -8027,7 +7951,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
